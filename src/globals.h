@@ -58,15 +58,15 @@
 #endif
 
 #ifndef VENDOR_NAME
-#define VENDOR_NAME "Unknown"
+#define VENDOR_NAME "NareMotion"
 #endif
 
 #ifndef VENDOR_URL
-#define VENDOR_URL ""
+#define VENDOR_URL "https://www.naremotion.com/"
 #endif
 
 #ifndef PRODUCT_NAME
-#define PRODUCT_NAME "DIY SlimeVR Tracker"
+#define PRODUCT_NAME "NareTracker LR"
 #endif
 
 #ifndef UPDATE_ADDRESS

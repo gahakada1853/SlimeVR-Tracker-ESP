@@ -37,13 +37,6 @@ except Exception:
 output = f"-DGIT_REV='\"{revision}\"'"
 
 fwVersion = os.environ.get("FIRMWARE_VERSION")
-if fwVersion is not None and fwVersion != "":
-	output += f" -DFIRMWARE_VERSION='\"{fwVersion}\"'"
-elif tag != "":
-	output += f" -DFIRMWARE_VERSION='\"{tag}\"'"
-elif branch != "":
-	output += f" -DFIRMWARE_VERSION='\"{branch}\"'"
-else:
-	output += f" -DFIRMWARE_VERSION='\"git-{revision}\"'"
+output += f" -DFIRMWARE_VERSION='\"gahakadaLR_260302\"'"
 
 print(output)
